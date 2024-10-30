@@ -1,16 +1,17 @@
 import React from 'react';
+import styles from './Profile.module.css';
 
 const Profile = ({ name, tag, location, image, stats }) => {
   return (
-    <div className="profile">
+    <div className={styles.profile}>
       <div>
         <img
           src={image || 'https://cdn-icons-png.flaticon.com/512/1077/1077012.png'}
           alt="User avatar"
         />
-        <p>{name}</p>
-        <p>@{tag}</p>
-        <p>{location}</p>
+        <p className={styles.name}>{name}</p>
+        <p className={styles.info}>@{tag}</p>
+        <p className={styles.info}>{location}</p>
       </div>
       <ul>
         <li>

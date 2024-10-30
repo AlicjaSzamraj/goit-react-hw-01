@@ -1,0 +1,52 @@
+.profile {
+  border: 2px solid #000000;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 300px;
+  text-align: center;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile img {
+  border-radius: 50%; 
+  width: 150px; 
+  height: 150px; 
+  object-fit: cover; 
+  margin-bottom: 10px; 
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(47, 47, 55);
+}
+
+.name {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.info {
+    color: rgb(131, 127, 127);
+}
+.profile p {
+  margin: 5px 0;
+}
+
+.profile ul {
+  list-style: none;
+  padding: 0;
+}
+
+.profile ul li {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+.profile ul li span {
+  font-weight: bold;
+}
