@@ -5,7 +5,7 @@
   padding: 20px;
   border: 2.5px solid #000000;
   margin: 5px; /* Dodanie odstępu między elementami */
-  border-radius: 5px;
+  border-radius: 10px;
   min-width: 100px;
   box-sizing: border-box;
 }
