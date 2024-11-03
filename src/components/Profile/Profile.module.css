@@ -44,21 +44,21 @@
 }
 
 .stats > div {
-  flex: 1; /* Każdy div ma równą szerokość */
+  flex: 1; 
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1.5px solid rgb(117, 114, 114); /* Gray border */
-  background-color: #dfdbdb; /* Light gray fill */
+  border: 1.5px solid rgb(117, 114, 114); 
+  background-color: #dfdbdb; 
   padding: 15px;
   border-bottom: #000000;
   border-left-color: #000000;
   border-right-color: #000000;
-  margin-left: -3px; /* Negatywny margines dla zewnętrznej krawędzi */
+  margin-left: -3px; 
   margin-bottom: -20px;
 }
 .stats > div:first-child {
-  margin-left: 0; /* Usunięcie lewego marginesu dla pierwszej kolumny */
+  margin-left: 0; 
 }
 
 .stats > div span:first-child {
