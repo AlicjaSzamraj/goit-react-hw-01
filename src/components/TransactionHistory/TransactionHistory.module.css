@@ -1,29 +1,28 @@
 table {
-    width: 50%;
-    border-collapse: collapse;
-    margin: 20px 0;
-    font-size: 18px;
-    text-align: center;
-    margin: auto;
-    margin-bottom: 40px;
-  }
-  
-  thead tr {
-    background-color: #2f3030;
-    color: #ffffff;
-    text-align: center;
-  }
-  
-  th,
-  td {
-    padding: 12px 15px;
-    border: 2px solid #121212;
-  }
-  
-  tbody tr:nth-child(even) {
-    background-color: #c4c2c2;
-  }
-  
-  tbody tr:nth-child(odd) {
-    background-color: #ffffff;
-  }
+  width: 50%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 18px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+thead tr {
+  background-color: #2f3030;
+  color: #ffffff;
+}
+
+th,
+td {
+  padding: 12px 15px;
+  border: 2px solid #121212;
+  text-align: center; /* Center align text in both headers and data */
+}
+
+tbody tr:nth-child(even) {
+  background-color: #c4c2c2;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+}
