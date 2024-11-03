@@ -1,0 +1,45 @@
+.item {
+    display: flex;
+    flex-direction: column; /* Ustawienie układu pionowego */
+    align-items: center;
+    padding: 20px;
+    border: 2.5px solid #000000;
+    margin: 5px; /* Dodanie odstępu między elementami */
+    border-radius: 5px;
+    min-width: 100px;
+    box-sizing: border-box;
+  }
+  
+  .avatar {
+    margin-bottom: 0;
+  }
+  
+  .name {
+    font-size: 1.8em;
+    font-weight: normal;
+    margin-top: 15px;
+    margin-bottom: 0;
+  }
+  
+  .online {
+    background-color: green;
+  }
+  
+  .offline {
+    background-color: red;
+  }
+  .onlineText {
+    font-weight: normal;
+    color: green;
+    font-size: 1.3em;
+    margin-bottom: 0;
+    margin-top: 15px;
+  }
+  
+  .offlineText {
+    font-weight: normal;
+    color: red;
+    font-size: 1.3em;
+    margin-bottom: 0;
+    margin-top: 15px;
+  }
